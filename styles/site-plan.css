@@ -167,10 +167,10 @@ nav a:hover {
 }
 
 .wireframe img{
-  width: 150%;
+  width: 1300px;
   height: auto;
   margin: 0 auto;
-  padding: 0;
+  padding: 20px;
   display: block;
 }
 
