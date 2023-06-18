@@ -165,3 +165,16 @@ nav a:hover {
   border-top: 1px solid;
   border-right: 1px solid;
 }
+
+.wireframe img{
+  width: 1300px;
+  height: auto;
+  margin: 0 auto;
+  padding: 20px;
+  display: block;
+}
+
+footer
+{
+  display: flex;
+}
