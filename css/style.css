@@ -1,9 +1,47 @@
 .logo{
-    width: 50px;
-    height: 50px;
+    width: 150px;
+    height: 150px;
+    padding: 10px;
+    border-radius: 140px;
+
 }
 
-body{
+nav
+{
+
+    border-top: 5px solid #000000;
+    text-align: center;
+    padding: auto;
+}
+
+nav a
+{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 2em;
+    padding: 2em;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+nav a:hover
+{
+    color: #000000;
+    background-color: #ffffff;
+    text-decoration: double;
+}
+
+body
+{
     margin: 0px;
     padding: 0px;
+    background-color: gray;
+}
+
+h1
+{
+    text-align: center;
+    font-size: 3em;
+    color: #ffffff;
+    margin-top: -3.5%;
 }
