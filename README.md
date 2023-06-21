@@ -14,4 +14,4 @@ You can learn how these algorithms work, what challenges they face, and how they
 This is the perfect website for anyone who loves art and wants to learn more about the fascinating world of AI.
 
 ### Website
-<a src="https://ramblergoodness.github.io/AI_Art_WDD130/index.html"> Home Page https://ramblergoodness.github.io/AI_Art_WDD130/index.html </a>
+Home Page https://ramblergoodness.github.io/AI_Art_WDD130/index.html
