@@ -12,3 +12,6 @@ It is more than just a gallery of beautiful images. It's also an educational pla
 You can learn how these algorithms work, what challenges they face, and how they can be improved. You can also interact with the artworks, change their parameters, and create your own versions.
 
 This is the perfect website for anyone who loves art and wants to learn more about the fascinating world of AI.
+
+### Website
+Home Page https://ramblergoodness.github.io/AI_Art_WDD130/index.html
