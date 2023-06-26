@@ -6,6 +6,27 @@
 
 }
 
+.button-box
+{
+    width: 100%;
+    text-align: center;
+    border-radius: 8px;
+    background-color: #A9BCD0;
+    padding: 10px;
+    margin: 10px;
+}
+
+.vid_box
+{
+    width: 100%;
+    text-align: center;
+    color: #A9BCD0;
+    border-radius: 8px;
+    background-color: #262626;
+    padding: 10px;
+
+}
+
 nav
 {
 
