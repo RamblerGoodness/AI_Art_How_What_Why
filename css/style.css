@@ -1,19 +1,64 @@
 .logo{
-    width: 150px;
-    height: 150px;
+    width: 50px;
+    height: 50px;
     padding: 10px;
     border-radius: 140px;
 
 }
 
+.Hero{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+
+.Hero_img{
+    width: 100%;
+    height: 100%;
+    grid-column: 1/4;
+    grid-row: 1/5;
+    z-index: -1;
+}
+
+.h_img{
+    width: 100%;
+    height: 100%;
+}
+
 .button-box
 {
-    width: 100%;
+    justify-self: center;
+    align-self: center;
+    grid-column: 3/4;
+    grid-row: 2;
+    width: 75px;
     text-align: center;
     border-radius: 8px;
     background-color: #A9BCD0;
     padding: 10px;
     margin: 10px;
+    z-index: 1;
+    box-shadow: black 5px 5px 5px;
+    border: #58A4B0 solid 2px;
+}
+
+.banner{
+    width: 100%;
+    height: 100%;
+}
+
+.banner h2{
+    text-align: center;
+    font-size: 2em;
+    color: #ffffff;
+    margin-top: -5%;
+}
+
+.banner img{
+    width: 100%;
+    height: 150px;
 }
 
 .vid_box
@@ -24,7 +69,6 @@
     border-radius: 8px;
     background-color: #262626;
     padding: 10px;
-
 }
 
 nav
@@ -48,7 +92,7 @@ nav a
 nav a:hover
 {
     color: #000000;
-    background-color: #ffffff;
+    background-color: #58A4B0;
     text-decoration: double;
 }
 
@@ -59,10 +103,85 @@ body
     background-color: gray;
 }
 
+body p
+{
+    font-size: 1.5em;
+    text-align: center;
+    padding: 1%;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+.Topic_1, .Topic_2{
+    width: 75%;
+    height: 100%;
+    text-align: center;
+    margin: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding: 0px;
+    background-color: #2E3134;
+    border: #000000 solid 5px;
+    border-radius: 8px;
+    color: #A9BCD0
+}
+
+.Topic_1 a, .Topic_2 a{
+    color: #58A4B0;
+    text-decoration: none;
+    font-size: 1em;
+}
+
+.Topic_1 a:hover, .Topic_2 a:hover{
+    color: #000000;
+    background-color: #58A4B0;
+    text-decoration: double;
+}
+
+
+footer{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-color: #2E3134;
+    color: #ffffff;
+    padding: 10px;
+}
+footer a{
+
+    font-size: 1.5em;
+    margin-top: 1em;
+    padding: 13px;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+footer a:hover
+{
+    color: #000000;
+    background-color: #ffffff;
+    text-decoration: double;
+}
+
 h1
 {
     text-align: center;
     font-size: 3em;
     color: #ffffff;
     margin-top: -3.5%;
+}
+
+h2
+{
+    text-align: center;
+    font-size: 2em;
+    color: #ffffff;
+}
+
+h3
+{
+    text-align: center;
+    font-size: 1.5em;
+    color: #ffffff;
+    margin-top: 5%;
 }
