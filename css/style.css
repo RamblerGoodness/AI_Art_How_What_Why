@@ -150,6 +150,11 @@ body p
     text-decoration: double;
 }
 
+p a
+{
+    text-decoration: none;
+    color: #58A4B0;
+}
 
 footer{
     display: flex;
