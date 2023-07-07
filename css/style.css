@@ -150,7 +150,7 @@ body p
     text-decoration: double;
 }
 
-p a
+.box p a
 {
     text-decoration: none;
     color: #58A4B0;
