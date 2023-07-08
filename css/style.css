@@ -178,9 +178,9 @@ body p
     margin: 30px;
     padding: 10px;
     background-color: #2E3134;
-    border: #000000 solid 4px;
-    border-radius: 16px;
+    border-radius: 32px;
     color: #A9BCD0;
+    box-shadow: #000000 0px 0px 10px;
 }
 
 .disclaimer{
@@ -188,6 +188,7 @@ body p
     padding: 10px;
     background-color: #2E3134;
     color: #A9BCD0;
+    text-decoration: underline #58A4B0;
 }
 
 .example{
@@ -216,10 +217,13 @@ body p
     height: 100%;
     justify-self: center;
     align-self: center;
+    box-shadow: white 0px 0px 10px;
 }
 
 .prompt_box{
-    margin: 30px;
+    margin: 20px;
+    margin-top: 0;
+    margin-bottom: 0;
     padding: 10px;
     background-color: gray;
     color: black;
