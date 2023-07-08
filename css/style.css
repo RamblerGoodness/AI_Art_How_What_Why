@@ -38,10 +38,7 @@ header{
 
 .button-box
 {
-    justify-self: center;
-    align-self: center;
-    grid-column: 3/4;
-    grid-row: 2;
+
     width: 75px;
     text-align: center;
     border-radius: 8px;
@@ -51,6 +48,15 @@ header{
     z-index: 1;
     box-shadow: black 5px 5px 5px;
     border: #2E3134 solid 1px;
+}
+
+.about_me{
+    justify-self: center;
+    align-self: center;
+    grid-column: 3/4;
+    grid-row: 2;
+    text-decoration: none;
+    color: #000000;
 }
 
 .banner{
