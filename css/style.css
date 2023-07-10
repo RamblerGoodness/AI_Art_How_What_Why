@@ -1,6 +1,6 @@
 .logo{
-    width: 65px;
-    height: 65px;
+    width: 85px;
+    height: 85px;
     padding: 1px;
     border-radius: 45px;
     box-shadow: #000000 10px 5px 7px;
@@ -9,7 +9,6 @@
 
 header{
     text-shadow: #000000 6px 6px 4px;
-    text-emphasis: bold;
     padding: 10px;
     background-color: #2E3134;
 }
@@ -41,9 +40,10 @@ header{
 
     width: 75px;
     text-align: center;
+    font-size: 1.4em;
     border-radius: 8px;
     background-color: #A9BCD0;
-    padding: 10px;
+    padding: 15px;
     margin: 10px;
     z-index: 1;
     box-shadow: black 5px 5px 5px;
@@ -89,7 +89,7 @@ header{
     color: #A9BCD0;
     border-radius: 18px;
     background-color: #262626;
-    padding: 10px;
+    padding: 15px;
     margin: 5%;
 }
 
@@ -104,7 +104,7 @@ nav
 {
     border-top: 10px solid #262626;
     text-align: center;
-    padding: auto;
+    padding: 10px;
     box-shadow: #000000 0px -.5px 0px;
     border-bottom: #2E3134 solid 3px;
     background-color: #58A4B0;
@@ -142,6 +142,13 @@ body p
     padding-right: 3%;
 }
 
+iframe
+{
+    width: 560px;
+    height: 315px;
+    border: 0;
+}
+
 .Topic_1, .Topic_2{
     width: 75%;
     height: 100%;
@@ -175,7 +182,7 @@ body p
 }
 
 .example_box{
-    margin: 100px;
+    margin: 30px;
     padding: 10px;
     background-color: #2E3134;
     border-radius: 32px;
@@ -195,7 +202,7 @@ body p
     margin: 30px;
     margin-bottom: 130px;
     padding: 20px;
-    background-color: #2E3134;
+    background-color: gray;
     border: #000000 solid 4px;
     border-radius: 16px;
     color: #A9BCD0;
